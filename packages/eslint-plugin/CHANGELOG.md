@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.0](https://github.com/de-jabber/reatom/compare/eslint-plugin-v3.6.2...eslint-plugin-v3.7.0) (2024-09-12)
+
+
+### Features
+
+* **eslint-plugin:** support atom dictionaries ([a539770](https://github.com/de-jabber/reatom/commit/a53977001bb06717674f3e4fbd36b87672743c3a))
+
 ## [3.6.2](https://github.com/artalar/reatom/compare/eslint-plugin-v3.6.1...eslint-plugin-v3.6.2) (2024-06-22)
 
 
