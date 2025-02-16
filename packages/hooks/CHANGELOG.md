@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.7.0](https://github.com/de-jabber/reatom/compare/hooks-v3.6.0...hooks-v3.7.0) (2025-02-16)
+
+
+### Features
+
+* **hooks:** onConnect abortable schedule ([bffd735](https://github.com/de-jabber/reatom/commit/bffd7351eaa9d4025a4edc7f31fcfd5510811d9a))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **hooks:** correct isInit behaviour ([#775](https://github.com/de-jabber/reatom/issues/775)) ([f61d4ac](https://github.com/de-jabber/reatom/commit/f61d4acbe5603628f18c84f1ef6b3d869ec83b71))
+* **hooks:** improve isInit perf ([be6a829](https://github.com/de-jabber/reatom/commit/be6a82984f798fd63786bace9a324bdf3d8ff3c6))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.6.0](https://github.com/artalar/reatom/compare/hooks-v3.5.5...hooks-v3.6.0) (2024-10-31)
 
 

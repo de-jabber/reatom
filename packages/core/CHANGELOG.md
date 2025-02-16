@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.11.0](https://github.com/de-jabber/reatom/compare/core-v3.10.0...core-v3.11.0) (2025-02-16)
+
+
+### Features
+
+* **core:** add batch method ([2e082b6](https://github.com/de-jabber/reatom/commit/2e082b6296d933ca24046f60ad31b11098027af2))
+* **core:** add experimental_PLUGINS ([334759c](https://github.com/de-jabber/reatom/commit/334759c1e20487545a1276f18c14812a1a080fbe))
+* **core:** add restrictMultipleContexts option and warning ([99e0e3c](https://github.com/de-jabber/reatom/commit/99e0e3c723a529effc43f0e2a4908806064d30af))
+* **core:** extra log for init update ([d26d615](https://github.com/de-jabber/reatom/commit/d26d615cc12df427162b23ada77ccff92f58f93b))
+
+
+### Bug Fixes
+
+* **core:** actualization of unsusbscribed atom ([e388afb](https://github.com/de-jabber/reatom/commit/e388afbbd120aa8fd9aeb3943cb55691e2930f24))
+* **core:** complex connection logic ([f8f3e25](https://github.com/de-jabber/reatom/commit/f8f3e25324f55fdc01a214d7d3b783ce77f6f68e))
+* **core:** disconnect of the last version of pubs [#996](https://github.com/de-jabber/reatom/issues/996) ([52b6593](https://github.com/de-jabber/reatom/commit/52b6593d0485f825110524dcbeeb401d3f9309d4))
+* **core:** isBrowser test ([60c7e8f](https://github.com/de-jabber/reatom/commit/60c7e8fc2fe346960cc2b5d71db1f7cb0d3312c1))
+* **core:** mem leak for recursion ([e84e7f6](https://github.com/de-jabber/reatom/commit/e84e7f634f37e93ac88d8eea0a13f0e727e5fd72))
+* **core:** prev value of spy callback ([0abdec0](https://github.com/de-jabber/reatom/commit/0abdec08c50de9c6622e71b67a4f063aaa9f9343))
+* **core:** remove extra computation ([6e3d86d](https://github.com/de-jabber/reatom/commit/6e3d86dc9d8de9dd78a9c10ce4cb3a899e407093))
+* **core:** rename initState to computed in atom overload ([#822](https://github.com/de-jabber/reatom/issues/822)) ([b96bf36](https://github.com/de-jabber/reatom/commit/b96bf364bbb2c851513d20e70bbb60d29267a2ef))
+* **docs:** fixed links to Reatom handbook ([#855](https://github.com/de-jabber/reatom/issues/855)) ([c9e6a56](https://github.com/de-jabber/reatom/commit/c9e6a56201c9a496664cd9409fe0fa5dff67606e))
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.10.0](https://github.com/artalar/reatom/compare/core-v3.9.3...core-v3.10.0) (2025-02-05)
 
 

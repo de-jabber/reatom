@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.12.0](https://github.com/de-jabber/reatom/compare/effects-v3.11.2...effects-v3.12.0) (2025-02-16)
+
+
+### Features
+
+* **effects:** add optional logging for the take [#987](https://github.com/de-jabber/reatom/issues/987) ([c57b83a](https://github.com/de-jabber/reatom/commit/c57b83a15d704ac715562cb2b143d6d908c9af41))
+* **effects:** add reaction API ([4c9d589](https://github.com/de-jabber/reatom/commit/4c9d5892f733e04e575937133eca3ec51424759f))
+* **effects:** concurrent strategies ([426aedc](https://github.com/de-jabber/reatom/commit/426aedcefb1b22bda21433a3dd04cb235d49af9d))
+* **effects:** explicit spawn action ([578186b](https://github.com/de-jabber/reatom/commit/578186b544723ed64ff1294d558d5162d463d4b9))
+
+
+### Bug Fixes
+
+* **effects:** allow to use "concurrent" with CtxSpy ([4da1ab0](https://github.com/de-jabber/reatom/commit/4da1ab04ecbd1de66d783c2bad2da6671981905a))
+* **effects:** concurrent abort [#1003](https://github.com/de-jabber/reatom/issues/1003) ([469b0d4](https://github.com/de-jabber/reatom/commit/469b0d44193b09953721db9072bc75e29b42a4c8))
+* **effects:** concurrent ctx types ([799485f](https://github.com/de-jabber/reatom/commit/799485fcf4aa9096b504cc52426cec74424e0515))
+* **effects:** concurrent outdated abort handling ([23f177e](https://github.com/de-jabber/reatom/commit/23f177e804546a8d43530a4c0dc764c162737513))
+* **effects:** concurrent recursion ([0ced206](https://github.com/de-jabber/reatom/commit/0ced206e450de0830c138c055da00cad99d0b851))
+* **effects:** concurrent.abortControllerAtom name ([25bdc47](https://github.com/de-jabber/reatom/commit/25bdc479e62045f946aeee6b9e001a8cb3450a07))
+* **effects:** missed abort... ([66d2afd](https://github.com/de-jabber/reatom/commit/66d2afd9bb6cfc1ababdffb7b547b7cee3e9425b))
+* **effects:** more friendly typings for isCausedBy ([5d60c1d](https://github.com/de-jabber/reatom/commit/5d60c1da8710c90df60b24e5d013e829455260d0))
+* **effects:** prevent uncaught rejection for the abort of the concurrent API ([028bf10](https://github.com/de-jabber/reatom/commit/028bf10baa38bcd85d6ae7445c8294160b50ca07))
+* **effects:** prevent unhandled error for abort ([fe884e2](https://github.com/de-jabber/reatom/commit/fe884e24ac574fc50c7ce4e825459d7059136b73))
+* **effects:** small refactoring ([0bc0f0b](https://github.com/de-jabber/reatom/commit/0bc0f0b2cf2a1b6593019a2f8ef175f15bc81284))
+* **effects:** unable to specify CtxSpy for concurrent ([#981](https://github.com/de-jabber/reatom/issues/981)) ([01af2b6](https://github.com/de-jabber/reatom/commit/01af2b615b4c4c3f9ba231764c2630acfde66fa5))
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.11.2](https://github.com/artalar/reatom/compare/effects-v3.11.1...effects-v3.11.2) (2025-02-10)
 
 

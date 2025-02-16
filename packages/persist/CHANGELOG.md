@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.5.0](https://github.com/de-jabber/reatom/compare/persist-v3.4.1...persist-v3.5.0) (2025-02-16)
+
+
+### Features
+
+* **persist:** add __persistRecordAtom ([89d6e6f](https://github.com/de-jabber/reatom/commit/89d6e6f98587c45bc5c77f241298ffd16f340489))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+* **persist:** computed handling ([6d747cb](https://github.com/de-jabber/reatom/commit/6d747cb07a3f857876abdb39afa91e8d9a36f4f0))
+* **persist:** do not accept an action ([f6b3028](https://github.com/de-jabber/reatom/commit/f6b3028982bec514158ce85474f116627ada3ab2))
+* **persist:** prevent extra computed calls ([65de325](https://github.com/de-jabber/reatom/commit/65de32501fa22841747069f6056f0d37c43b4ec4))
+* **persist:** rm extra cache for transactions ([5efcd57](https://github.com/de-jabber/reatom/commit/5efcd5746e9e208e46b0b6b6692b823d950bc1b6))
+* **persist:** snapshotAtom init state [#885](https://github.com/de-jabber/reatom/issues/885) ([209613f](https://github.com/de-jabber/reatom/commit/209613f425ee06e5cd81ebddb84b25accb1c5861))
+
 ## [3.4.1](https://github.com/artalar/reatom/compare/persist-v3.4.0...persist-v3.4.1) (2024-10-08)
 
 
