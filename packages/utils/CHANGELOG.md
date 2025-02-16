@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.12.0](https://github.com/de-jabber/reatom/compare/utils-v3.11.2...utils-v3.12.0) (2025-02-16)
+
+
+### Features
+
+* **devtools:** graph view ([95b55f8](https://github.com/de-jabber/reatom/commit/95b55f8133c14d68c43707361caa0c5c0174b564))
+* **utils:** add setTimeout ([b979284](https://github.com/de-jabber/reatom/commit/b9792842c45409da53448272d593a327ab306b0c))
+* **utils:** add throwAbort ([a991be1](https://github.com/de-jabber/reatom/commit/a991be1153c8b1c3c929a7eabcc9328e022b8eff))
+* **utils:** add typed keys and entries ([ed3c205](https://github.com/de-jabber/reatom/commit/ed3c205259d39cea018938c2b14794dbfd994c00))
+* **utils:** improve toStringKey ([9f9a7e8](https://github.com/de-jabber/reatom/commit/9f9a7e8cebd9d6229d3e9a50cdb2a03bd59d1a6b))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+* **utils:** prettify toStringKey output ([f7f9189](https://github.com/de-jabber/reatom/commit/f7f9189f2108165caca2f9d227f7c7054e582ca9))
+* **utils:** setTimeout types [#1002](https://github.com/de-jabber/reatom/issues/1002) ([3201541](https://github.com/de-jabber/reatom/commit/3201541b0df9c90cdfb1dc5eafe1183042804d80))
+* **utils:** setTimeout types [#983](https://github.com/de-jabber/reatom/issues/983) ([a81e9a3](https://github.com/de-jabber/reatom/commit/a81e9a3506315d3ff3d442a8a7b79484b70eeae3))
+* **utils:** toStringKey for Symbol.for ([a0a985b](https://github.com/de-jabber/reatom/commit/a0a985b9cfcf0c5d6538d55992a4c79150811cd8))
+
 ## [3.11.2](https://github.com/artalar/reatom/compare/utils-v3.11.1...utils-v3.11.2) (2025-01-14)
 
 

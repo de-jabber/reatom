@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.18.0](https://github.com/de-jabber/reatom/compare/jsx-v3.17.1...jsx-v3.18.0) (2025-02-16)
+
+
+### Features
+
+* **jsx:** add automatic input type def for a model ([e906142](https://github.com/de-jabber/reatom/commit/e90614230ded105812ef9e06cdb3af833852cd33))
+* **jsx:** add Bind component ([ea4617e](https://github.com/de-jabber/reatom/commit/ea4617e3d9f8bd680b1fc8b1ef2d28eb00ea0cb6))
+* **jsx:** add FC type ([2d3e1b3](https://github.com/de-jabber/reatom/commit/2d3e1b3a3efef815e9ba1ed677e7b0a6edcd66f0))
+* **jsx:** add MouseEventHandler type ([4c9ea78](https://github.com/de-jabber/reatom/commit/4c9ea783c83ac6c425d4215f5372d3e4abda5b3c))
+* **jsx:** add ref cleanup callback ([73111a0](https://github.com/de-jabber/reatom/commit/73111a0e290ed698eeed0d35e5a9e5bb8eda95c7))
+* **jsx:** class name normalization helper ([#942](https://github.com/de-jabber/reatom/issues/942)) ([2803165](https://github.com/de-jabber/reatom/commit/2803165ccf21100c3bd37b371d680481474874f1))
+* **jsx:** complete jsx renderer ([#733](https://github.com/de-jabber/reatom/issues/733)) ([f251172](https://github.com/de-jabber/reatom/commit/f251172ead5a386ec95e145ccc12845b428d93da))
+* **jsx:** handle falsy like React ([#861](https://github.com/de-jabber/reatom/issues/861)) ([ad52a74](https://github.com/de-jabber/reatom/commit/ad52a74b8104301b702d503f050b31754c2816d4))
+* **jsx:** huge refactor, add css support ([8e0019e](https://github.com/de-jabber/reatom/commit/8e0019e17299eba58d897eda18affb56c5de8b71))
+* **jsx:** style property helper ([#1011](https://github.com/de-jabber/reatom/issues/1011)) ([2fe6f85](https://github.com/de-jabber/reatom/commit/2fe6f850b781c1f75120fb1623b1cdb68ebbaf70))
+* **jsx:** support array children ([c555206](https://github.com/de-jabber/reatom/commit/c555206b4349494912cc278b5157d9b167cc54a0))
+* **jsx:** support reatomLinkedList ([0e027e8](https://github.com/de-jabber/reatom/commit/0e027e8317e10a59b9f65b0ec1070e3a5637aeca))
+* **jsx:** use component name in class name ([5eb91bb](https://github.com/de-jabber/reatom/commit/5eb91bbf02e0e11ac49a47c0b36254c26786a96f))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **jsx:** better ref unmount hook ([#906](https://github.com/de-jabber/reatom/issues/906)) ([cbcc564](https://github.com/de-jabber/reatom/commit/cbcc564cad4e1084c5953d92dd02d15ac1a0ee31))
+* **jsx:** bool attribute ([0e1ca0f](https://github.com/de-jabber/reatom/commit/0e1ca0f08e464b4bfd040450b71f8a1ee9aa91d8))
+* **jsx:** class name generator ([f61f1c2](https://github.com/de-jabber/reatom/commit/f61f1c2bbce907c1d00dff3d579838e6c500df98))
+* **jsx:** fix replace css property ([#908](https://github.com/de-jabber/reatom/issues/908)) ([15e2dc7](https://github.com/de-jabber/reatom/commit/15e2dc79cc412fb9cb0e1887334a6a18e3fd9ccf))
+* **jsx:** fragment better support ([5c984cd](https://github.com/de-jabber/reatom/commit/5c984cde6a514ff2b36f25d94c3be04797bb6285))
+* **jsx:** fragment for LL ([4bb3529](https://github.com/de-jabber/reatom/commit/4bb35293d01344b7f5dad9b3d09a93b1a594e9e0))
+* **jsx:** fragments for LL ([32f387f](https://github.com/de-jabber/reatom/commit/32f387f2215465770daa59dd5ed0acd9cc103856))
+* **jsx:** mount fragment as child ([#782](https://github.com/de-jabber/reatom/issues/782)) ([33a0fda](https://github.com/de-jabber/reatom/commit/33a0fda91bd1ed5a384d8214baa08f0b295861f2))
+* **jsx:** remove wrong capture types ([7cd9984](https://github.com/de-jabber/reatom/commit/7cd99848e22eb6d307fc4e6ee04cc6cab68585c2))
+* **jsx:** render a factory returning an atom ([#874](https://github.com/de-jabber/reatom/issues/874)) ([c6d8ac9](https://github.com/de-jabber/reatom/commit/c6d8ac975dc16b6b1cb4c58cafb03a44c381d16e))
+* **jsx:** render Atom&lt;SVGElement&gt; ([#869](https://github.com/de-jabber/reatom/issues/869)) ([3db6ce8](https://github.com/de-jabber/reatom/commit/3db6ce87dd0af2395f127561a7b098a7f64f34c0))
+* **jsx:** types ([f2dc64b](https://github.com/de-jabber/reatom/commit/f2dc64b04dcc8393cdcf45390ad352e97477a522))
+* **jsx:** unsubscribe when removing a parent element ([#919](https://github.com/de-jabber/reatom/issues/919)) ([ec71d33](https://github.com/de-jabber/reatom/commit/ec71d337be35ed2e9fd0bf6da6b13317238636e3))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.17.1](https://github.com/artalar/reatom/compare/jsx-v3.17.0...jsx-v3.17.1) (2025-02-10)
 
 

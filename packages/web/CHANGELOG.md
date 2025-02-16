@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.7.0](https://github.com/de-jabber/reatom/compare/web-v3.6.0...web-v3.7.0) (2025-02-16)
+
+
+### Features
+
+* **web:** add online atom ([#940](https://github.com/de-jabber/reatom/issues/940)) ([6413696](https://github.com/de-jabber/reatom/commit/6413696fc13ae8f10fc6c6a0616b12e8b31c5127))
+
+
+### Bug Fixes
+
+* esm module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **new-package-template:** use mjs in module export ([1011671](https://github.com/de-jabber/reatom/commit/10116719dd92d8102352a39e4ed772b8173d8668))
+* **npm-svelte:** republish without tag ([93c7f7f](https://github.com/de-jabber/reatom/commit/93c7f7f5ec58247b1b3aec854cd83b0a0ecd6a6c))
+
 ## [3.6.0](https://github.com/artalar/reatom/compare/web-v3.5.3...web-v3.6.0) (2024-10-14)
 
 
